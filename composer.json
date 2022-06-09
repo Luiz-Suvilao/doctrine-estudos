@@ -1,0 +1,25 @@
+{
+  "name": "luiz_suvilao/doctrine",
+  "description": "Curso doctrine",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Luiz Filipe",
+      "email": "suvilao@gmail.com"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "^2.12",
+    "doctrine/dbal": "^3.3",
+    "doctrine/annotations": "^1.13",
+    "symfony/yaml": "^5.4",
+    "symfony/cache": "^5.4",
+    "doctrine/migrations": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "LuizSuvilao\\Doctrine\\": "src/"
+    }
+  }
+}
